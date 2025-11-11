@@ -1,0 +1,4 @@
+fu time(value) {
+    -- value can be a `day` or `night` and so on, also it can be as a number
+    run("time " + value)
+}
