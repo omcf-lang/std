@@ -1,0 +1,7 @@
+fu add(x, y, z, id) {
+    run("setblock " + x + " " + y + " " + z " " + id)
+}
+
+fu addState(x, y, z, id, state) {
+    run("setblock " + x + " " + y + " " + z " " + id + "[" + state + "]")
+}
