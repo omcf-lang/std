@@ -1,0 +1,3 @@
+fu weather(weather, seconds) {
+    run("weather " + weather + " " + seconds)
+}
