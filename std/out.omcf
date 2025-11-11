@@ -1,0 +1,5 @@
+-- tellraw("@a", "Hello World!")
+fu tellraw(selector, text) {
+  run("tellraw " + selector + " "" + text + ")
+  -- tellraw @a "Hello World"
+}
