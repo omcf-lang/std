@@ -1,5 +1,10 @@
 -- tellraw("@a", "Hello World!")
+-- this function will change to JSON format
 fu tellraw(selector, text) {
   run("tellraw " + selector + " "" + text + ")
-  -- tellraw @a "Hello World"
+}
+
+-- say("Hello World")
+fu say(text) {
+  run("say " + text)
 }
